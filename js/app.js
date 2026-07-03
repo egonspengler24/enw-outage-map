@@ -43,9 +43,15 @@ const mastsLayer = L.geoJSON(null, {
     }),
   onEachFeature: (feature, layer) => {
     const p = feature.properties || {};
-    layer.bindPopup(
-      `<strong>Cell/mast</strong><br/>Radio: ${p.radio ?? "?"}<br/>Cell ID: ${p.cellid ?? "?"}`
-    );
+    const html =
+      `<strong>Cell/mast</strong><br/>` +
+      `Radio: ${p.radio ?? "?"}<br/>` +
+      `Cell ID: ${p.cellid ?? "?"}<br/>` +
+      `Network: MCC ${p.mcc ?? "?"} / MNC ${p.net ?? "?"}<br/>` +
+      `Range: ${Number.isFinite(p.range_m) ? `${p.range_m} m` : "?"}`;
+
+    layer.bindTooltip(html, { sticky: true, direction: "top", opacity: 0.9 });
+    layer.bindPopup(html);
   },
 }).addTo(map);
 
