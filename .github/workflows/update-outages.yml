@@ -1,0 +1,43 @@
+name: Update outages
+
+on:
+  schedule:
+    # Every 5 minutes. GitHub does not guarantee exact timing for scheduled
+    # workflows (public repos in particular can see delays of several
+    # minutes under load), so treat this as "at least every ~5-15 min".
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-outages
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest outages
+        env:
+          ENW_API_KEY: ${{ secrets.ENW_API_KEY }}
+        run: node scripts/fetch-outages.js
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/outages.json; then
+            echo "No changes to commit."
+          else
+            git add data/outages.json
+            git commit -m "Update outages data [skip ci]"
+            git push
+          fi
