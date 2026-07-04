@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-07-04T17:29:18.863Z",
-  "feature_count": 29,
+  "generated_at": "2026-07-04T18:33:20.339Z",
+  "feature_count": 28,
   "features": [
     {
       "type": "Feature",
@@ -57,7 +57,7 @@
         "etr": "2026-07-04T19:00:00+00:00",
         "confirmedoff": 21,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-02T23:29:17+00:00",
         "date_time_of_restoration": null
       }
@@ -84,107 +84,9 @@
         "etr": "2026-07-03T15:52:59+00:00",
         "confirmedoff": 1,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-03T12:52:51+00:00",
         "date_time_of_restoration": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -2.7478195659,
-              53.7632931292
-            ],
-            [
-              -2.7475250962,
-              53.7633345978
-            ],
-            [
-              -2.7472385681,
-              53.7636608525
-            ],
-            [
-              -2.7474331557,
-              53.7636242297
-            ],
-            [
-              -2.7478195659,
-              53.7632931292
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "fault_id": "INC 1241213878",
-        "location_longitude": -2.7471916180079337,
-        "location_latitude": 53.763618225497225,
-        "postcode": [
-          "PR2 1"
-        ],
-        "licence_area": "North West",
-        "voltagelevel": "LV",
-        "status": "In Progress",
-        "etr": "2026-07-04T19:00:00+00:00",
-        "confirmedoff": 4,
-        "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
-        "outage_start_date": "2026-07-03T16:45:02+00:00",
-        "date_time_of_restoration": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -2.171951608,
-              53.2652862728
-            ],
-            [
-              -2.1634840188,
-              53.2645353615
-            ],
-            [
-              -2.1634015949,
-              53.2648443948
-            ],
-            [
-              -2.1642285893,
-              53.2649315882
-            ],
-            [
-              -2.165510893,
-              53.2650461288
-            ],
-            [
-              -2.171951608,
-              53.2652862728
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "fault_id": "INC 1241213599",
-        "location_longitude": -2.1666484522951386,
-        "location_latitude": 53.264905482665654,
-        "postcode": [
-          "SK10 3"
-        ],
-        "licence_area": "North West",
-        "voltagelevel": "LV",
-        "status": "Completed",
-        "etr": null,
-        "confirmedoff": 0,
-        "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
-        "outage_start_date": "2026-07-03T11:05:11+00:00",
-        "date_time_of_restoration": "2026-07-03T18:48:34+00:00"
       }
     },
     {
@@ -237,7 +139,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-03T13:20:00+00:00",
         "date_time_of_restoration": "2026-07-03T22:55:00+00:00"
       }
@@ -248,60 +150,65 @@
         "coordinates": [
           [
             [
-              -3.1930539344,
-              54.2947958584
+              -2.4767636486,
+              53.7045311796
             ],
             [
-              -3.1647104133,
-              54.2868101728
+              -2.475924601,
+              53.7045674426
             ],
             [
-              -3.1022952794,
-              54.285650648
+              -2.4752508074,
+              53.7047021202
             ],
             [
-              -3.0694572876,
-              54.288574346
+              -2.4743716123,
+              53.7048825849
             ],
             [
-              -3.0775716266,
-              54.3464677525
+              -2.4743170053,
+              53.7048976677
             ],
             [
-              -3.1076649084,
-              54.3511988663
+              -2.4746497184,
+              53.7049778983
             ],
             [
-              -3.1463640427,
-              54.3412549475
+              -2.4748666261,
+              53.7049399797
             ],
             [
-              -3.1930539344,
-              54.2947958584
+              -2.4761470995,
+              53.7046963647
+            ],
+            [
+              -2.4764192372,
+              53.7046317804
+            ],
+            [
+              -2.4767636486,
+              53.7045311796
             ]
           ]
         ],
         "type": "Polygon"
       },
       "properties": {
-        "fault_id": "INC 1241213927",
-        "location_longitude": -3.0854556528784123,
-        "location_latitude": 54.35700631697821,
+        "fault_id": "INC 1241213894",
+        "location_longitude": -2.4724573987721072,
+        "location_latitude": 53.70527068775565,
         "postcode": [
-          "LA12 8",
-          "LA20 6",
-          "LA20 8",
-          "LA21 8"
+          "BB3 1"
         ],
         "licence_area": "North West",
-        "voltagelevel": "HV",
+        "voltagelevel": "LV",
         "status": "Completed",
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
-        "outage_start_date": "2026-07-03T19:01:23+00:00",
-        "date_time_of_restoration": "2026-07-03T19:02:53+00:00"
+        "as_at_date": "2026-07-04T19:31:22+00:00",
+        "outage_start_date": "2026-07-03T17:26:20+00:00",
+        "date_time_of_restoration": "2026-07-04T17:11:50+00:00"
       }
     },
     {
@@ -354,7 +261,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-04T00:50:00+00:00",
         "date_time_of_restoration": "2026-07-04T01:37:00+00:00"
       }
@@ -381,7 +288,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-04T07:00:17+00:00",
         "date_time_of_restoration": "2026-07-04T08:45:00+00:00"
       }
@@ -408,7 +315,7 @@
         "etr": "2026-05-20T15:00:00+00:00",
         "confirmedoff": 1,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-05-19T11:26:00+00:00",
         "date_time_of_restoration": null
       }
@@ -441,7 +348,7 @@
         "etr": "2026-07-02T10:12:43+00:00",
         "confirmedoff": 1,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-02T07:12:28+00:00",
         "date_time_of_restoration": null
       }
@@ -468,7 +375,7 @@
         "etr": "2026-07-04T22:30:00+00:00",
         "confirmedoff": 1,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-04T10:15:39+00:00",
         "date_time_of_restoration": null
       }
@@ -479,53 +386,44 @@
         "coordinates": [
           [
             [
-              -2.3008220005,
-              53.5843020706
+              -2.8968002098,
+              53.8567234177
             ],
             [
-              -2.299284611,
-              53.5833839389
+              -2.8950334181,
+              53.8554561538
             ],
             [
-              -2.2995171962,
-              53.5838536915
+              -2.8947935677,
+              53.8559363824
             ],
             [
-              -2.2996452159,
-              53.584074085
+              -2.8965748322,
+              53.8569411773
             ],
             [
-              -2.299984658,
-              53.5845342468
-            ],
-            [
-              -2.3000390551,
-              53.5845942861
-            ],
-            [
-              -2.3008220005,
-              53.5843020706
+              -2.8968002098,
+              53.8567234177
             ]
           ]
         ],
         "type": "Polygon"
       },
       "properties": {
-        "fault_id": "INC 1241214205",
-        "location_longitude": -2.2979471383842447,
-        "location_latitude": 53.58425107400205,
+        "fault_id": "INC 1241214165",
+        "location_longitude": -2.899716956990893,
+        "location_latitude": 53.85724780101466,
         "postcode": [
-          "BL9 0",
-          "BL9 9"
+          "PR3 0"
         ],
         "licence_area": "North West",
         "voltagelevel": "LV",
         "status": "In Progress",
-        "etr": "2026-07-04T20:49:10+00:00",
-        "confirmedoff": 28,
+        "etr": "2026-07-05T00:30:00+00:00",
+        "confirmedoff": 6,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
-        "outage_start_date": "2026-07-04T14:50:00+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
+        "outage_start_date": "2026-07-04T12:47:36+00:00",
         "date_time_of_restoration": null
       }
     },
@@ -585,11 +483,66 @@
         "licence_area": "North West",
         "voltagelevel": "HV",
         "status": "In Progress",
-        "etr": "2026-07-04T18:47:48+00:00",
+        "etr": "2026-07-04T20:30:00+00:00",
         "confirmedoff": 38,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-04T15:47:35+00:00",
+        "date_time_of_restoration": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.2950773288,
+              53.591378938
+            ],
+            [
+              -2.2949022288,
+              53.5914333548
+            ],
+            [
+              -2.2947567137,
+              53.5914905205
+            ],
+            [
+              -2.2946145411,
+              53.5915743371
+            ],
+            [
+              -2.2945049349,
+              53.5916442402
+            ],
+            [
+              -2.2944715023,
+              53.5916662002
+            ],
+            [
+              -2.2950773288,
+              53.591378938
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "fault_id": "INC 1241214241",
+        "location_longitude": -2.2951570752808874,
+        "location_latitude": 53.59103939585027,
+        "postcode": [
+          "BL9 0"
+        ],
+        "licence_area": "North West",
+        "voltagelevel": "LV",
+        "status": "In Progress",
+        "etr": "2026-07-04T22:43:51+00:00",
+        "confirmedoff": 13,
+        "planned": false,
+        "as_at_date": "2026-07-04T19:31:22+00:00",
+        "outage_start_date": "2026-07-04T16:44:11+00:00",
         "date_time_of_restoration": null
       }
     },
@@ -621,7 +574,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-03T16:15:25+00:00",
         "date_time_of_restoration": "2026-07-03T23:10:00+00:00"
       }
@@ -676,7 +629,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-03T17:35:17+00:00",
         "date_time_of_restoration": "2026-07-03T19:33:48+00:00"
       }
@@ -703,7 +656,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-03T17:40:12+00:00",
         "date_time_of_restoration": "2026-07-04T15:58:38+00:00"
       }
@@ -762,7 +715,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-03T20:55:00+00:00",
         "date_time_of_restoration": "2026-07-04T03:10:05+00:00"
       }
@@ -789,7 +742,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-04T04:44:19+00:00",
         "date_time_of_restoration": "2026-07-04T09:27:16+00:00"
       }
@@ -816,7 +769,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-04T09:07:11+00:00",
         "date_time_of_restoration": "2026-07-04T15:30:00+00:00"
       }
@@ -863,42 +816,9 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-04T13:36:00+00:00",
         "date_time_of_restoration": "2026-07-04T14:58:00+00:00"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            -2.3531238755,
-            53.7692120354
-          ],
-          [
-            -2.3531166566,
-            53.7692087491
-          ]
-        ],
-        "type": "LineString"
-      },
-      "properties": {
-        "fault_id": "INC 125345157",
-        "location_longitude": -2.353445735670889,
-        "location_latitude": 53.76954883588025,
-        "postcode": [
-          "BB5 6"
-        ],
-        "licence_area": "North West",
-        "voltagelevel": "LV",
-        "status": "Completed",
-        "etr": null,
-        "confirmedoff": 0,
-        "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
-        "outage_start_date": "2026-06-22T08:32:15+00:00",
-        "date_time_of_restoration": "2026-07-03T18:17:37+00:00"
       }
     },
     {
@@ -923,7 +843,7 @@
         "etr": "2026-07-04T11:00:00+00:00",
         "confirmedoff": 1,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-03T18:25:06+00:00",
         "date_time_of_restoration": null
       }
@@ -950,7 +870,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-03T06:17:24+00:00",
         "date_time_of_restoration": "2026-07-03T19:45:51+00:00"
       }
@@ -1005,9 +925,64 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-03T13:23:00+00:00",
         "date_time_of_restoration": "2026-07-03T20:38:51+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.4135082803,
+              53.891214882
+            ],
+            [
+              -2.4128023607,
+              53.8914075835
+            ],
+            [
+              -2.4116743184,
+              53.891844221
+            ],
+            [
+              -2.411764221,
+              53.89186525
+            ],
+            [
+              -2.4120088267,
+              53.8918203346
+            ],
+            [
+              -2.4132697006,
+              53.8913533973
+            ],
+            [
+              -2.4135082803,
+              53.891214882
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "fault_id": "INC 1241213911",
+        "location_longitude": -2.4142409533806495,
+        "location_latitude": 53.891097222635786,
+        "postcode": [
+          "BB7 3"
+        ],
+        "licence_area": "North West",
+        "voltagelevel": "LV",
+        "status": "Completed",
+        "etr": null,
+        "confirmedoff": 0,
+        "planned": false,
+        "as_at_date": "2026-07-04T19:31:22+00:00",
+        "outage_start_date": "2026-07-03T17:52:51+00:00",
+        "date_time_of_restoration": "2026-07-04T13:10:09+00:00"
       }
     },
     {
@@ -1061,7 +1036,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-03T18:25:00+00:00",
         "date_time_of_restoration": "2026-07-03T20:10:00+00:00"
       }
@@ -1088,7 +1063,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-04T04:43:34+00:00",
         "date_time_of_restoration": "2026-07-04T09:27:16+00:00"
       }
@@ -1159,7 +1134,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-04T06:50:00+00:00",
         "date_time_of_restoration": "2026-07-04T07:32:00+00:00"
       }
@@ -1186,7 +1161,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-07-04T09:15:57+00:00",
         "date_time_of_restoration": "2026-07-04T16:24:32+00:00"
       }
@@ -1267,7 +1242,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-04T18:16:09+00:00",
+        "as_at_date": "2026-07-04T19:31:22+00:00",
         "outage_start_date": "2026-06-30T16:55:01+00:00",
         "date_time_of_restoration": "2026-07-04T11:15:48+00:00"
       }
