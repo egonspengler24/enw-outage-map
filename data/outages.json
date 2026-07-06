@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-07-06T20:25:50.589Z",
-  "feature_count": 24,
+  "generated_at": "2026-07-06T21:53:45.074Z",
+  "feature_count": 22,
   "features": [
     {
       "type": "Feature",
@@ -31,7 +31,7 @@
         "etr": "2026-07-03T15:52:59+00:00",
         "confirmedoff": 2,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-03T12:52:51+00:00",
         "date_time_of_restoration": null
       }
@@ -102,7 +102,7 @@
         "etr": "2026-07-06T22:30:00+00:00",
         "confirmedoff": 322,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T17:49:13+00:00",
         "date_time_of_restoration": null
       }
@@ -157,7 +157,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-03T10:32:28+00:00",
         "date_time_of_restoration": "2026-07-06T12:00:23+00:00"
       }
@@ -190,7 +190,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-05T09:55:46+00:00",
         "date_time_of_restoration": "2026-07-06T13:31:28+00:00"
       }
@@ -250,7 +250,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T00:30:00+00:00",
         "date_time_of_restoration": "2026-07-06T00:34:00+00:00"
       }
@@ -277,7 +277,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": true,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T08:00:00+00:00",
         "date_time_of_restoration": "2026-07-06T09:45:00+00:00"
       }
@@ -304,7 +304,7 @@
         "etr": "2026-05-20T15:00:00+00:00",
         "confirmedoff": 1,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:13+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-05-19T11:26:00+00:00",
         "date_time_of_restoration": null
       }
@@ -348,38 +348,11 @@
         "licence_area": "North West",
         "voltagelevel": "LV",
         "status": "In Progress",
-        "etr": "2026-07-07T01:00:00+00:00",
-        "confirmedoff": 90,
+        "etr": "2026-07-06T22:00:00+00:00",
+        "confirmedoff": 48,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T12:59:00+00:00",
-        "date_time_of_restoration": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          -2.213212885,
-          53.9846519617
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "fault_id": "INC 1241214690",
-        "location_longitude": -2.213999579338133,
-        "location_latitude": 53.98435082163428,
-        "postcode": [
-          "BD23 4"
-        ],
-        "licence_area": "North West",
-        "voltagelevel": "LV",
-        "status": "In Progress",
-        "etr": "1970-01-01T00:00:00+00:00",
-        "confirmedoff": 4,
-        "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
-        "outage_start_date": "2026-07-06T18:05:00+00:00",
         "date_time_of_restoration": null
       }
     },
@@ -421,7 +394,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T08:40:00+00:00",
         "date_time_of_restoration": "2026-07-06T10:30:00+00:00"
       }
@@ -464,7 +437,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": true,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T08:30:00+00:00",
         "date_time_of_restoration": "2026-07-06T12:45:00+00:00"
       }
@@ -519,7 +492,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T11:15:00+00:00",
         "date_time_of_restoration": "2026-07-06T12:00:00+00:00"
       }
@@ -578,7 +551,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T13:25:00+00:00",
         "date_time_of_restoration": "2026-07-06T19:00:08+00:00"
       }
@@ -621,7 +594,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-02T07:12:27+00:00",
         "date_time_of_restoration": "2026-07-06T11:50:41+00:00"
       }
@@ -654,7 +627,7 @@
         "etr": "2026-07-06T17:00:00+00:00",
         "confirmedoff": 1,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T10:33:41+00:00",
         "date_time_of_restoration": null
       }
@@ -719,85 +692,10 @@
         "voltagelevel": "LV",
         "status": "In Progress",
         "etr": "2026-07-06T23:17:37+00:00",
-        "confirmedoff": 62,
+        "confirmedoff": 13,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T17:21:00+00:00",
-        "date_time_of_restoration": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -2.253110776,
-              53.9910518436
-            ],
-            [
-              -2.2519742237,
-              53.9887357943
-            ],
-            [
-              -2.2242644432,
-              53.9715184715
-            ],
-            [
-              -2.1988779174,
-              53.9743703732
-            ],
-            [
-              -2.1952032628,
-              53.9768430569
-            ],
-            [
-              -2.187068498,
-              53.9865374998
-            ],
-            [
-              -2.1591133038,
-              54.0255157807
-            ],
-            [
-              -2.1602242995,
-              54.0290188167
-            ],
-            [
-              -2.1803352257,
-              54.0269419305
-            ],
-            [
-              -2.2497999376,
-              54.0102956584
-            ],
-            [
-              -2.2512283791,
-              54.0025499651
-            ],
-            [
-              -2.253110776,
-              53.9910518436
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "fault_id": "INC 1241215189",
-        "location_longitude": -2.2572620815786615,
-        "location_latitude": 54.008768532871485,
-        "postcode": [
-          "BD23 4"
-        ],
-        "licence_area": "North West",
-        "voltagelevel": "HV",
-        "status": "In Progress",
-        "etr": "2026-07-06T21:00:00+00:00",
-        "confirmedoff": 16,
-        "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
-        "outage_start_date": "2026-07-06T17:50:00+00:00",
         "date_time_of_restoration": null
       }
     },
@@ -843,7 +741,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T09:45:00+00:00",
         "date_time_of_restoration": "2026-07-06T11:00:26+00:00"
       }
@@ -870,7 +768,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-03T18:25:05+00:00",
         "date_time_of_restoration": "2026-07-06T13:10:39+00:00"
       }
@@ -933,7 +831,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-05T04:43:23+00:00",
         "date_time_of_restoration": "2026-07-06T13:12:46+00:00"
       }
@@ -988,7 +886,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-05T08:45:30+00:00",
         "date_time_of_restoration": "2026-07-06T01:41:55+00:00"
       }
@@ -1043,7 +941,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T09:50:00+00:00",
         "date_time_of_restoration": "2026-07-06T12:22:00+00:00"
       }
@@ -1098,7 +996,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": true,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T09:45:00+00:00",
         "date_time_of_restoration": "2026-07-06T10:29:00+00:00"
       }
@@ -1125,7 +1023,7 @@
         "etr": null,
         "confirmedoff": 0,
         "planned": false,
-        "as_at_date": "2026-07-06T21:16:14+00:00",
+        "as_at_date": "2026-07-06T22:47:24+00:00",
         "outage_start_date": "2026-07-06T15:46:46+00:00",
         "date_time_of_restoration": "2026-07-06T16:17:22+00:00"
       }
